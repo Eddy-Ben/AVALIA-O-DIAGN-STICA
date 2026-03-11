@@ -14,11 +14,11 @@ class Program
 
         if (inicio >= fim)
         {
-            Console.WriteLine("Erro! O número inicial deve ser menor que o final.");
+            Console.WriteLine("Erro! O numero inicial deve ser menor que o final.");
         }
         else
         {
-            Console.WriteLine("Números no intervalo:");
+            Console.WriteLine("Numeros no intervalo:");
 
             for (int i = inicio; i <= fim; i++)
             {
