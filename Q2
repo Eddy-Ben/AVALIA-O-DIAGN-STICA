@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int inicio, fim;
+
+        Console.Write("Digite o numero inicial: ");
+        inicio = int.Parse(Console.ReadLine());
+
+        Console.Write("Digite o numero final: ");
+        fim = int.Parse(Console.ReadLine());
+
+        if (inicio >= fim)
+        {
+            Console.WriteLine("Erro! O número inicial deve ser menor que o final.");
+        }
+        else
+        {
+            Console.WriteLine("Números no intervalo:");
+
+            for (int i = inicio; i <= fim; i++)
+            {
+                Console.Write(i + " ");
+            }
+        }
+    }
+}
