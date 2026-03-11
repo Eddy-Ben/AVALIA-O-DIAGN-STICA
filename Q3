@@ -9,7 +9,7 @@ class Program
 
         for (int i = 0; i < 10; i++)
         {
-            Console.Write("Digite um número: ");
+            Console.Write("Digite um numero: ");
             numeros[i] = int.Parse(Console.ReadLine());
         }
 
@@ -23,6 +23,6 @@ class Program
             }
         }
 
-        Console.WriteLine("O maior número digitado foi: " + maior);
+        Console.WriteLine("O maior numero digitado foi: " + maior);
     }
 }
